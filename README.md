@@ -26,3 +26,12 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 Semplice implementazione delle operazioni base su un modello di un Database, in particolare è mostrato l'utilizzo del Route Model Binding per Creare, Leggere, Aggiornare, Cancellare e Ricercare elementi all'interno di una table mySQL.
 Template creato in bootstrap5 basato sull'esempio fornito da YeloCode (https://github.com/yelocode/bootstrap5-twitter-clone-template.git)
 
+## Struttura cartelle
+
+- `app/http/Controllers`: Contiene i controllers utilizzati per gestire le richieste
+- `app/models`: Contiene i modelli
+- `database/migrations`: Contiene le migrazoni utilizzate per creare le tables MySql
+- `resources/views`: Contiene la parte HTML del progetto, implementata tramite templating BLADE
+- `routes`: Contiene il file web.php, dove sono definite le routes del progetto
+- `.env`: File contenente le variabili di ambiente del progetto
+
